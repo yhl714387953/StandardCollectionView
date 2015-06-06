@@ -8,28 +8,23 @@
 
 #import "MZCell.h"
 
+
+
 @implementation MZCell
 -(instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor grayColor];
-        [self initSubViews];
+        self.label.textAlignment = NSTextAlignmentCenter;
     }
     
     return self;
 }
 
--(void)initSubViews{
-
-    self.nameLabel = [[UILabel alloc] initWithFrame:self.bounds];
-    self.nameLabel.textAlignment = NSTextAlignmentCenter;
-    [self.contentView addSubview:self.nameLabel];
-}
-
-
+#warning 若子类重写了父类的方法，记得调用[super methodName] 要么就别起一样的名字
 -(void)layoutSubviews{
     [super layoutSubviews];
-    self.nameLabel.bounds = self.bounds;
+    self.label.bounds = self.bounds;
 
 
 }

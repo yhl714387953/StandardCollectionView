@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9130FD21B23A0A0001F6913 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FAD1B23A0A0001F6913 /* UIViewExt.m */; };
+		D9130FD31B23A0A0001F6913 /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FB01B23A0A0001F6913 /* CarModel.m */; };
+		D9130FD41B23A0A0001F6913 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FB31B23A0A0001F6913 /* BaseCollectionViewCell.m */; };
+		D9130FD51B23A0A0001F6913 /* BaseHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FB51B23A0A0001F6913 /* BaseHeaderReusableView.m */; };
+		D9130FD61B23A0A0001F6913 /* SelectedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FB91B23A0A0001F6913 /* SelectedCell.m */; };
+		D9130FD71B23A0A0001F6913 /* SelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FBB1B23A0A0001F6913 /* SelectedView.m */; };
+		D9130FD81B23A0A0001F6913 /* ServiceHourVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FBF1B23A0A0001F6913 /* ServiceHourVCell.m */; };
+		D9130FD91B23A0A0001F6913 /* ServiceHourView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FC11B23A0A0001F6913 /* ServiceHourView.m */; };
+		D9130FDA1B23A0A0001F6913 /* ServiceTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FC31B23A0A0001F6913 /* ServiceTimeCell.m */; };
+		D9130FDB1B23A0A0001F6913 /* ServiceTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FC51B23A0A0001F6913 /* ServiceTimeView.m */; };
+		D9130FDC1B23A0A0001F6913 /* MZCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FC81B23A0A0001F6913 /* MZCell.m */; };
+		D9130FDD1B23A0A0001F6913 /* MZHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FCA1B23A0A0001F6913 /* MZHeaderReusableView.m */; };
+		D9130FDE1B23A0A0001F6913 /* ConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FCE1B23A0A0001F6913 /* ConfirmViewController.m */; };
+		D9130FDF1B23A0A0001F6913 /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9130FD11B23A0A0001F6913 /* ServiceViewController.m */; };
 		D92CF0AE1B22DC630098DD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0AD1B22DC630098DD69 /* main.m */; };
 		D92CF0B11B22DC630098DD69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0B01B22DC630098DD69 /* AppDelegate.m */; };
 		D92CF0B41B22DC630098DD69 /* StandardCollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0B21B22DC630098DD69 /* StandardCollectionView.xcdatamodeld */; };
-		D92CF0B71B22DC630098DD69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0B61B22DC630098DD69 /* ViewController.m */; };
 		D92CF0BA1B22DC630098DD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92CF0B81B22DC630098DD69 /* Main.storyboard */; };
 		D92CF0BC1B22DC630098DD69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92CF0BB1B22DC630098DD69 /* Images.xcassets */; };
 		D92CF0BF1B22DC630098DD69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92CF0BD1B22DC630098DD69 /* LaunchScreen.xib */; };
 		D92CF0CB1B22DC630098DD69 /* StandardCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0CA1B22DC630098DD69 /* StandardCollectionViewTests.m */; };
-		D92CF0D81B22DC8C0098DD69 /* MZCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0D51B22DC8C0098DD69 /* MZCell.m */; };
-		D92CF0D91B22DC8C0098DD69 /* MZHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0D71B22DC8C0098DD69 /* MZHeaderReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,24 +41,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9130FA91B23A0A0001F6913 /* CarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarHeader.h; sourceTree = "<group>"; };
+		D9130FAC1B23A0A0001F6913 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		D9130FAD1B23A0A0001F6913 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		D9130FAF1B23A0A0001F6913 /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		D9130FB01B23A0A0001F6913 /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		D9130FB21B23A0A0001F6913 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		D9130FB31B23A0A0001F6913 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		D9130FB41B23A0A0001F6913 /* BaseHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHeaderReusableView.h; sourceTree = "<group>"; };
+		D9130FB51B23A0A0001F6913 /* BaseHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHeaderReusableView.m; sourceTree = "<group>"; };
+		D9130FB81B23A0A0001F6913 /* SelectedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCell.h; sourceTree = "<group>"; };
+		D9130FB91B23A0A0001F6913 /* SelectedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCell.m; sourceTree = "<group>"; };
+		D9130FBA1B23A0A0001F6913 /* SelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedView.h; sourceTree = "<group>"; };
+		D9130FBB1B23A0A0001F6913 /* SelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedView.m; sourceTree = "<group>"; };
+		D9130FBE1B23A0A0001F6913 /* ServiceHourVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceHourVCell.h; sourceTree = "<group>"; };
+		D9130FBF1B23A0A0001F6913 /* ServiceHourVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceHourVCell.m; sourceTree = "<group>"; };
+		D9130FC01B23A0A0001F6913 /* ServiceHourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceHourView.h; sourceTree = "<group>"; };
+		D9130FC11B23A0A0001F6913 /* ServiceHourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceHourView.m; sourceTree = "<group>"; };
+		D9130FC21B23A0A0001F6913 /* ServiceTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTimeCell.h; sourceTree = "<group>"; };
+		D9130FC31B23A0A0001F6913 /* ServiceTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTimeCell.m; sourceTree = "<group>"; };
+		D9130FC41B23A0A0001F6913 /* ServiceTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTimeView.h; sourceTree = "<group>"; };
+		D9130FC51B23A0A0001F6913 /* ServiceTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTimeView.m; sourceTree = "<group>"; };
+		D9130FC71B23A0A0001F6913 /* MZCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCell.h; sourceTree = "<group>"; };
+		D9130FC81B23A0A0001F6913 /* MZCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCell.m; sourceTree = "<group>"; };
+		D9130FC91B23A0A0001F6913 /* MZHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZHeaderReusableView.h; sourceTree = "<group>"; };
+		D9130FCA1B23A0A0001F6913 /* MZHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZHeaderReusableView.m; sourceTree = "<group>"; };
+		D9130FCD1B23A0A0001F6913 /* ConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmViewController.h; sourceTree = "<group>"; };
+		D9130FCE1B23A0A0001F6913 /* ConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmViewController.m; sourceTree = "<group>"; };
+		D9130FD01B23A0A0001F6913 /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
+		D9130FD11B23A0A0001F6913 /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
 		D92CF0A81B22DC630098DD69 /* StandardCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92CF0AC1B22DC630098DD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D92CF0AD1B22DC630098DD69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D92CF0AF1B22DC630098DD69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D92CF0B01B22DC630098DD69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D92CF0B31B22DC630098DD69 /* StandardCollectionView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StandardCollectionView.xcdatamodel; sourceTree = "<group>"; };
-		D92CF0B51B22DC630098DD69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D92CF0B61B22DC630098DD69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D92CF0B91B22DC630098DD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D92CF0BB1B22DC630098DD69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D92CF0BE1B22DC630098DD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D92CF0C41B22DC630098DD69 /* StandardCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92CF0C91B22DC630098DD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D92CF0CA1B22DC630098DD69 /* StandardCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardCollectionViewTests.m; sourceTree = "<group>"; };
-		D92CF0D41B22DC8C0098DD69 /* MZCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCell.h; sourceTree = "<group>"; };
-		D92CF0D51B22DC8C0098DD69 /* MZCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCell.m; sourceTree = "<group>"; };
-		D92CF0D61B22DC8C0098DD69 /* MZHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZHeaderReusableView.h; sourceTree = "<group>"; };
-		D92CF0D71B22DC8C0098DD69 /* MZHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZHeaderReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +102,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9130FAA1B23A0A0001F6913 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FAB1B23A0A0001F6913 /* UIViewExt */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D9130FAB1B23A0A0001F6913 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FAC1B23A0A0001F6913 /* UIViewExt.h */,
+				D9130FAD1B23A0A0001F6913 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		D9130FAE1B23A0A0001F6913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FAF1B23A0A0001F6913 /* CarModel.h */,
+				D9130FB01B23A0A0001F6913 /* CarModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9130FB11B23A0A0001F6913 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FB21B23A0A0001F6913 /* BaseCollectionViewCell.h */,
+				D9130FB31B23A0A0001F6913 /* BaseCollectionViewCell.m */,
+				D9130FB41B23A0A0001F6913 /* BaseHeaderReusableView.h */,
+				D9130FB51B23A0A0001F6913 /* BaseHeaderReusableView.m */,
+				D9130FB61B23A0A0001F6913 /* ConfirmView */,
+				D9130FC61B23A0A0001F6913 /* ServiceView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9130FB61B23A0A0001F6913 /* ConfirmView */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FB71B23A0A0001F6913 /* SelectedItemView */,
+				D9130FBC1B23A0A0001F6913 /* ServiceTimeView */,
+			);
+			path = ConfirmView;
+			sourceTree = "<group>";
+		};
+		D9130FB71B23A0A0001F6913 /* SelectedItemView */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FB81B23A0A0001F6913 /* SelectedCell.h */,
+				D9130FB91B23A0A0001F6913 /* SelectedCell.m */,
+				D9130FBA1B23A0A0001F6913 /* SelectedView.h */,
+				D9130FBB1B23A0A0001F6913 /* SelectedView.m */,
+			);
+			path = SelectedItemView;
+			sourceTree = "<group>";
+		};
+		D9130FBC1B23A0A0001F6913 /* ServiceTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FBD1B23A0A0001F6913 /* ServiceHourView */,
+				D9130FC21B23A0A0001F6913 /* ServiceTimeCell.h */,
+				D9130FC31B23A0A0001F6913 /* ServiceTimeCell.m */,
+				D9130FC41B23A0A0001F6913 /* ServiceTimeView.h */,
+				D9130FC51B23A0A0001F6913 /* ServiceTimeView.m */,
+			);
+			path = ServiceTimeView;
+			sourceTree = "<group>";
+		};
+		D9130FBD1B23A0A0001F6913 /* ServiceHourView */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FBE1B23A0A0001F6913 /* ServiceHourVCell.h */,
+				D9130FBF1B23A0A0001F6913 /* ServiceHourVCell.m */,
+				D9130FC01B23A0A0001F6913 /* ServiceHourView.h */,
+				D9130FC11B23A0A0001F6913 /* ServiceHourView.m */,
+			);
+			path = ServiceHourView;
+			sourceTree = "<group>";
+		};
+		D9130FC61B23A0A0001F6913 /* ServiceView */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FC71B23A0A0001F6913 /* MZCell.h */,
+				D9130FC81B23A0A0001F6913 /* MZCell.m */,
+				D9130FC91B23A0A0001F6913 /* MZHeaderReusableView.h */,
+				D9130FCA1B23A0A0001F6913 /* MZHeaderReusableView.m */,
+			);
+			path = ServiceView;
+			sourceTree = "<group>";
+		};
+		D9130FCB1B23A0A0001F6913 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FCC1B23A0A0001F6913 /* ConfirmVC */,
+				D9130FCF1B23A0A0001F6913 /* ServiceVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D9130FCC1B23A0A0001F6913 /* ConfirmVC */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FCD1B23A0A0001F6913 /* ConfirmViewController.h */,
+				D9130FCE1B23A0A0001F6913 /* ConfirmViewController.m */,
+			);
+			path = ConfirmVC;
+			sourceTree = "<group>";
+		};
+		D9130FCF1B23A0A0001F6913 /* ServiceVC */ = {
+			isa = PBXGroup;
+			children = (
+				D9130FD01B23A0A0001F6913 /* ServiceViewController.h */,
+				D9130FD11B23A0A0001F6913 /* ServiceViewController.m */,
+			);
+			path = ServiceVC;
+			sourceTree = "<group>";
+		};
 		D92CF09F1B22DC630098DD69 = {
 			isa = PBXGroup;
 			children = (
@@ -91,13 +245,12 @@
 			children = (
 				D92CF0AF1B22DC630098DD69 /* AppDelegate.h */,
 				D92CF0B01B22DC630098DD69 /* AppDelegate.m */,
-				D92CF0B51B22DC630098DD69 /* ViewController.h */,
-				D92CF0B61B22DC630098DD69 /* ViewController.m */,
-				D92CF0D41B22DC8C0098DD69 /* MZCell.h */,
-				D92CF0D51B22DC8C0098DD69 /* MZCell.m */,
-				D92CF0D61B22DC8C0098DD69 /* MZHeaderReusableView.h */,
-				D92CF0D71B22DC8C0098DD69 /* MZHeaderReusableView.m */,
 				D92CF0B81B22DC630098DD69 /* Main.storyboard */,
+				D9130FA91B23A0A0001F6913 /* CarHeader.h */,
+				D9130FAA1B23A0A0001F6913 /* Category */,
+				D9130FAE1B23A0A0001F6913 /* Model */,
+				D9130FB11B23A0A0001F6913 /* View */,
+				D9130FCB1B23A0A0001F6913 /* ViewController */,
 				D92CF0BB1B22DC630098DD69 /* Images.xcassets */,
 				D92CF0BD1B22DC630098DD69 /* LaunchScreen.xib */,
 				D92CF0B21B22DC630098DD69 /* StandardCollectionView.xcdatamodeld */,
@@ -232,12 +385,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9130FDC1B23A0A0001F6913 /* MZCell.m in Sources */,
+				D9130FDB1B23A0A0001F6913 /* ServiceTimeView.m in Sources */,
+				D9130FD71B23A0A0001F6913 /* SelectedView.m in Sources */,
+				D9130FD51B23A0A0001F6913 /* BaseHeaderReusableView.m in Sources */,
+				D9130FD81B23A0A0001F6913 /* ServiceHourVCell.m in Sources */,
+				D9130FDF1B23A0A0001F6913 /* ServiceViewController.m in Sources */,
+				D9130FD21B23A0A0001F6913 /* UIViewExt.m in Sources */,
+				D9130FDD1B23A0A0001F6913 /* MZHeaderReusableView.m in Sources */,
+				D9130FDA1B23A0A0001F6913 /* ServiceTimeCell.m in Sources */,
+				D9130FD61B23A0A0001F6913 /* SelectedCell.m in Sources */,
+				D9130FD41B23A0A0001F6913 /* BaseCollectionViewCell.m in Sources */,
+				D9130FD91B23A0A0001F6913 /* ServiceHourView.m in Sources */,
 				D92CF0B11B22DC630098DD69 /* AppDelegate.m in Sources */,
+				D9130FD31B23A0A0001F6913 /* CarModel.m in Sources */,
 				D92CF0B41B22DC630098DD69 /* StandardCollectionView.xcdatamodeld in Sources */,
-				D92CF0B71B22DC630098DD69 /* ViewController.m in Sources */,
-				D92CF0D91B22DC8C0098DD69 /* MZHeaderReusableView.m in Sources */,
-				D92CF0D81B22DC8C0098DD69 /* MZCell.m in Sources */,
 				D92CF0AE1B22DC630098DD69 /* main.m in Sources */,
+				D9130FDE1B23A0A0001F6913 /* ConfirmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +596,7 @@
 				D92CF0D01B22DC630098DD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D92CF0D11B22DC630098DD69 /* Build configuration list for PBXNativeTarget "StandardCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +605,7 @@
 				D92CF0D31B22DC630098DD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

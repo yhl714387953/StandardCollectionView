@@ -1,5 +1,5 @@
 //
-//  MZHeaderReusableView.h
+//  BaseCollectionViewCell.h
 //  MeiZhiTableView
 //
 //  Created by Hailong Yu on 15/6/6.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MZHeaderReusableView : UICollectionReusableView
-@property (nonatomic, strong) UILabel* nameLabel;
+@interface BaseCollectionViewCell : UICollectionViewCell
+@property (nonatomic, strong) UILabel* label;
 @end

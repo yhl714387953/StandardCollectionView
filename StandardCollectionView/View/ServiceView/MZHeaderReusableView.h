@@ -1,5 +1,5 @@
 //
-//  MZCell.h
+//  MZHeaderReusableView.h
 //  MeiZhiTableView
 //
 //  Created by Hailong Yu on 15/6/6.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseHeaderReusableView.h"
 
-@interface MZCell : UICollectionViewCell
-@property (nonatomic, strong) UILabel* nameLabel;
-@property (nonatomic) BOOL isSelected;
+@interface MZHeaderReusableView : BaseHeaderReusableView
+
 @end
