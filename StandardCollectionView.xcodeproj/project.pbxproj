@@ -15,6 +15,8 @@
 		D92CF0BC1B22DC630098DD69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92CF0BB1B22DC630098DD69 /* Images.xcassets */; };
 		D92CF0BF1B22DC630098DD69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92CF0BD1B22DC630098DD69 /* LaunchScreen.xib */; };
 		D92CF0CB1B22DC630098DD69 /* StandardCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0CA1B22DC630098DD69 /* StandardCollectionViewTests.m */; };
+		D92CF0D81B22DC8C0098DD69 /* MZCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0D51B22DC8C0098DD69 /* MZCell.m */; };
+		D92CF0D91B22DC8C0098DD69 /* MZHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CF0D71B22DC8C0098DD69 /* MZHeaderReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		D92CF0C41B22DC630098DD69 /* StandardCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92CF0C91B22DC630098DD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D92CF0CA1B22DC630098DD69 /* StandardCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardCollectionViewTests.m; sourceTree = "<group>"; };
+		D92CF0D41B22DC8C0098DD69 /* MZCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCell.h; sourceTree = "<group>"; };
+		D92CF0D51B22DC8C0098DD69 /* MZCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCell.m; sourceTree = "<group>"; };
+		D92CF0D61B22DC8C0098DD69 /* MZHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZHeaderReusableView.h; sourceTree = "<group>"; };
+		D92CF0D71B22DC8C0098DD69 /* MZHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZHeaderReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				D92CF0B01B22DC630098DD69 /* AppDelegate.m */,
 				D92CF0B51B22DC630098DD69 /* ViewController.h */,
 				D92CF0B61B22DC630098DD69 /* ViewController.m */,
+				D92CF0D41B22DC8C0098DD69 /* MZCell.h */,
+				D92CF0D51B22DC8C0098DD69 /* MZCell.m */,
+				D92CF0D61B22DC8C0098DD69 /* MZHeaderReusableView.h */,
+				D92CF0D71B22DC8C0098DD69 /* MZHeaderReusableView.m */,
 				D92CF0B81B22DC630098DD69 /* Main.storyboard */,
 				D92CF0BB1B22DC630098DD69 /* Images.xcassets */,
 				D92CF0BD1B22DC630098DD69 /* LaunchScreen.xib */,
@@ -225,6 +235,8 @@
 				D92CF0B11B22DC630098DD69 /* AppDelegate.m in Sources */,
 				D92CF0B41B22DC630098DD69 /* StandardCollectionView.xcdatamodeld in Sources */,
 				D92CF0B71B22DC630098DD69 /* ViewController.m in Sources */,
+				D92CF0D91B22DC8C0098DD69 /* MZHeaderReusableView.m in Sources */,
+				D92CF0D81B22DC8C0098DD69 /* MZCell.m in Sources */,
 				D92CF0AE1B22DC630098DD69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

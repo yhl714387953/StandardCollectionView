@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MZCell.h"
+#import "MZHeaderReusableView.h"
 
 @interface ViewController : UIViewController
 
